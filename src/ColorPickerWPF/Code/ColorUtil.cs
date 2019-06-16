@@ -10,7 +10,7 @@ using Color = System.Windows.Media.Color;
 
 namespace ColorPickerWPF.Code
 {
-    internal static class Util
+    public static class ColorUtil
     {
         [DllImport("shlwapi.dll")]
         public static extern int ColorHLSToRGB(int H, int L, int S);

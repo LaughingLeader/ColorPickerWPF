@@ -57,7 +57,7 @@
     <Compile Include="Code\ColorPalette.cs" />
     <Compile Include="Code\ColorPickerDialogOptions.cs" />
     <Compile Include="Code\ColorSwatchItem.cs" />
-    <Compile Include="Code\Util.cs" />
+    <Compile Include="Code\ColorUtil.cs" />
     <Compile Include="ColorPickerControl.xaml.cs">
       <DependentUpon>ColorPickerControl.xaml</DependentUpon>
     </Compile>

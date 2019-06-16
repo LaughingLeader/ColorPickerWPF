@@ -9,7 +9,7 @@ namespace ColorPickerWPF
 {
     public static class ColorPickerSettings
     {
-        internal static bool UsingCustomPalette;
+        public static bool UsingCustomPalette { get; internal set; }
         public static string CustomColorsFilename = "CustomColorPalette.xml";
         public static string CustomColorsDirectory = Environment.CurrentDirectory;
 
